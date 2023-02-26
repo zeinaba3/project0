@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.head{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.head #links{
+    margin-right: 30px;
+    display: flex;
+}
+.head #links a{
+    margin-left: 30px;
+    font-size: small;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+
+}
+.head #links a:hover{
+    border-bottom: 1px solid rgba(0,0,0,0.87);
+}
+#mainSection{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mainSection  #inputfield input{
+    border: 1px solid #dfe1e5;
+    height: 13px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 584px;
+}
+#mainSection #bdr input{
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px 5px;
+    padding: 10px;
+    text-align: center;
+     cursor: pointer;
+}
+#mainSection #bdr   {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* index 3 */
+.advanced{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: small;
+}
+.googleimage{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.googleimage img{
+    width: 70px;
+    height: auto;
+}
+.advancedSub{
+    border-bottom: 1px solid #ebebeb;
+
+}
+.advancedSub h2{
+    color: #d93025;
+    font-size:20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top:15px ;
+    font-weight: normal;
+
+}
+.input1 .textheading{
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #e333;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0  45px;}
+
+.input1 .TextDes{
+    width: 200px;
+    font-size: 13px;
+}
+.input1  .input-field{
+    min-width: 167px;
+    width: 50%;
+}
+.input1  .input-field input{
+    border-radius: 1px;
+    border:1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+.input1 .Todo{
+    width: 32px;
+    min-width: 16px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 30px;
+    white-space: pre;
+}
+span{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+.input1 .button{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.button input{
+    background-color: #4d90fe;
+    background-image:-webkit-linear-gradient(top, #4d90fe , #4787ed) ;
+    color: white;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}

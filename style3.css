@@ -1,0 +1,74 @@
+/* index 3 */
+.advanced{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: small;
+}
+.googleimage{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.googleimage img{
+    width: 70px;
+    height: auto;
+}
+.advancedSub{
+    border-bottom: 1px solid #ebebeb;
+
+}
+.advancedSub h2{
+    color: #d93025;
+    font-size:20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top:15px ;
+    font-weight: normal;
+
+}
+.input1 .textheading{
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #e333;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0  45px;}
+
+.input1 .TextDes{
+    width: 200px;
+    font-size: 13px;
+}
+.input1  .input-field{
+    min-width: 167px;
+    width: 50%;
+}
+.input1  .input-field input{
+    border-radius: 1px;
+    border:1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+.input1 .Todo{
+    width: 32px;
+    min-width: 16px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 30px;
+}
+span{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
